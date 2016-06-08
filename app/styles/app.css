@@ -1,0 +1,31 @@
+@import "normalize";
+
+html, body {
+  height: 100%;
+  text-align: center;
+}
+
+div {
+  height: 100%;
+}
+
+section {
+  height: 100%;
+  display: flex;
+}
+
+section > div {
+  flex: 1;
+  justify-content: middle;
+}
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+}
